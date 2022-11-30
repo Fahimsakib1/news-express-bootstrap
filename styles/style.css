@@ -1,0 +1,144 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F6F6;
+    height: 100vh;
+   
+}
+
+
+/* Nav Bar Custom CSS */
+.nav-text-dark{
+    color: black;
+}
+
+.news:hover{
+    color: rgb(239, 36, 36);
+}
+
+.blog:hover{
+    color: rgb(231, 19, 19);
+}
+
+.about-us:hover{
+    color: rgb(238, 25, 25);
+}
+
+.nav-bar-logo{
+    width: 50px;
+    height: 20px;
+}
+
+#nav-bar-image{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(237, 7, 7);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* News Related CSS */
+#news-categories{
+    list-style: none;
+    padding: 10px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 12px;
+    color: black;
+
+}
+
+#news-categories li{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#news-categories li:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(33, 36, 196);
+    border-radius: 7px;
+}
+.news-category-author-image{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(13, 13, 13);
+    border-radius: 50%;
+}
+
+
+
+/* Modal Related CSS */
+.author-image-modal{
+    width: 70px;
+    height: 70px;
+    border: 3px solid rgb(67, 25, 207);
+    border-radius: 50%;
+}
+.modal-eye{
+    margin-top: 5px;
+}
+.modal-view{
+    margin-top: 4px;
+}
+.modal-publish-date{
+    margin-top: 27px;
+}
+.news-rating-modal{
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+
+.news-view{
+    margin-top: 65px;
+}
+#news-found-number{
+    background-color: rgb(160, 12, 12);
+    color: white;
+    border-radius: 12px;
+}
+.navbar-style{
+    background-color: rgb(8, 3, 146);
+    border-radius: 10px;
+}
+.nav-bg-light{
+    background-color: rgb(241, 239, 244);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.news-title-color{
+    color: rgb(225, 6, 6);
+    font-size: 28px;
+}
+.news-view-count{
+    margin-top: 95px;
+}
+/* Footer Css */
+.footer-section{
+    margin-top: 220px;
+   
+}
+#footer-span {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 575px) {
+    .yellow-div {
+      margin-left: -25px;
+    }
+  }
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .yellow-div {
+        margin-left: 135px;
+    }
+  }
